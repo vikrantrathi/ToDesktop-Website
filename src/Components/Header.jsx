@@ -3,6 +3,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { IoArrowForward } from "react-icons/io5";
 import { FaXmark } from "react-icons/fa6";
 import { useState } from "react";
+import logo from "/src/assets/asset 0.png";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   function handlemenu() {
@@ -15,7 +16,7 @@ const Header = () => {
           <a href="">
             <div className="flex items-center">
               <img
-                src="./src/assets/asset 0.png"
+                src={logo}
                 alt="Logo"
                 className="h-12 w-12 mr-2 object-cover"
               />

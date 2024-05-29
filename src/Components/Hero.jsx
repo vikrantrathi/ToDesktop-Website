@@ -6,6 +6,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { RiDragMove2Line } from "react-icons/ri";
 
 const Hero = () => {
+  
   const initialTranslateLTR = -48 * 4;
   const initialTranslateRTL = 36 * 4;
 
