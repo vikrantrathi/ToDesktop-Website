@@ -15,7 +15,7 @@ const Header = () => {
           <a href="">
             <div className="flex items-center">
               <img
-                src="main/src/assets/asset 0.png"
+               src={process.env.PUBLIC_URL + '/assets/asset_0.png'}
                 alt="Logo"
                 className="h-12 w-12 mr-2 object-cover"
               />
