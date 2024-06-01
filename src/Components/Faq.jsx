@@ -29,7 +29,7 @@ const Faq = () => {
 
   return (
     <div>
-      <div className="max-w-7xl container mx-auto mt-10 p-10">
+      <div className="max-w-7xl container mx-auto mt-10 p-10 md:p-5 xl:p-0">
         <div className="md:w-[40%] text-5xl font-bold">FAQs</div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 items-start">
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
