@@ -5,7 +5,7 @@ const Download = () => {
   return (
     <div className="w-full p-10">
       <div className="flex flex-col md:flex-row conatiner max-w-7xl mx-auto mt-10 bg-slate-800 rounded-3xl overflow-hidden">
-        <div className="flex flex-col p-10 md:w-[60%]">
+        <div className="flex flex-col  md:p-10 p-5  md:w-[60%]">
           <h4 className="text-white">READY TO START BUILDING?</h4>
           <h2 className="text-2xl md:text-5xl text-white font-bold mt-5 leading-snug">
             Create your desktop app for free*
