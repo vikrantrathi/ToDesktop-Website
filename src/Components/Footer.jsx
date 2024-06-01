@@ -40,7 +40,7 @@ const Footer = () => {
             <p> A Y Combinator company.</p>
           </div>
           <div>
-            <p>&copy; 2024 Vikrant Rathi, Inc. All rights reserved.</p>
+            <p className="text-center">&copy; 2024 Vikrant Rathi, Inc. All rights reserved.</p>
           </div>
         </div>
       </div>

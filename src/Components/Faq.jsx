@@ -34,7 +34,7 @@ const Faq = () => {
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 items-start">
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-1"
             >
               <p>Is ToDesktop For Me?</p>
@@ -50,7 +50,7 @@ const Faq = () => {
           </div>
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-2"
             >
               <p>How does ToDesktop work?</p>
@@ -65,7 +65,7 @@ const Faq = () => {
           </div>
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-3"
             >
               <p>How does ToDesktop work?</p>
@@ -80,7 +80,7 @@ const Faq = () => {
           </div>
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-4"
             >
               <p>How does ToDesktop work?</p>
@@ -95,7 +95,7 @@ const Faq = () => {
           </div>
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-5"
             >
               <p>How does ToDesktop work?</p>
@@ -110,7 +110,7 @@ const Faq = () => {
           </div>
           <div className="border rounded-xl border-gray-200 bg-gray-50 p-6 group">
             <dt
-              className="cursor-pointer flex justify-between text-2xl font-semibold"
+              className="cursor-pointer flex justify-between text-xl md:text-2xl font-semibold"
               aria-controls="faq-6"
             >
               <p>How does ToDesktop work?</p>

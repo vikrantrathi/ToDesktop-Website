@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div className="p-10 xl:p-0">
-      <div className="max-w-7xl conatiner mx-auto md:mt-10 border rounded-3xl p-10 flex flex-col md:flex-row gap-10 bg-slate-800">
+      <div className="max-w-7xl conatiner mx-auto md:mt-10 border rounded-3xl md:p-10 p-5 flex flex-col md:flex-row gap-10 bg-slate-800">
         <div className="md:w-[65%] flex flex-col gap-8">
           <span className="text-white font-semibold">
             DEDICATED SUPPORT AND EXPERT GUIDANCE.
@@ -39,7 +39,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="md:w-[35%] bg-white flex border rounded-xl">
-          <div className="flex flex-col gap-10 justify-center items-center p-10  text-center">
+          <div className="flex flex-col gap-10 justify-center items-center md:p-10 p-5  text-center">
             <p className=" font-bold text-slate-500">
               Secure, reliable cross-platform desktop apps for enterprise teams.
             </p>

@@ -83,7 +83,7 @@ const Hero = () => {
           <div className=" flex gap-2 items-center border px-3 py-1 rounded-lg bg-yellow-50 border-yellow-300 shadow-md hover:shadow-lg hover:-translate-y-1 transition group">
             <LuCircleDot className="text-yellow-500" />
             <p className="text-yellow-600 font-display font-medium sm:text-center">
-              Lorem ipsum dolor sit amet.
+              Lorem ipsum dolor sit.
             </p>
             <FaArrowRight className="text-yellow-600 group-hover:translate-x-1 transition duration-300" />
           </div>
@@ -122,7 +122,7 @@ const Hero = () => {
           </div>
         </div>
         {/* companies  */}
-        <div className="mt-16 flex gap-2 justify-center items-center">
+        <div className="mt-16 flex gap-1 justify-center items-center">
           <img src={asset2} alt="" className="translate-y-2" />
           <span className="font-bold ">APPS POWERED BY TO DESKTOP</span>
           <img src={asset2} alt="" className="translate-y-2 -scale-x-100" />
