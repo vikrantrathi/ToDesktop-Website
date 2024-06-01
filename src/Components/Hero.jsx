@@ -4,9 +4,34 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaRegFileCode } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { RiDragMove2Line } from "react-icons/ri";
-
+import asset2 from "/src/assets/asset 2.svg";
+import asset3 from "/src/assets/asset 3.png";
+import asset4 from "/src/assets/asset 4.png";
+import asset5 from "/src/assets/asset 5.png";
+import asset6 from "/src/assets/asset 6.png";
+import asset7 from "/src/assets/asset 7.png";
+import asset8 from "/src/assets/asset 8.png";
+import asset9 from "/src/assets/asset 9.png";
+import asset10 from "/src/assets/asset 10.png";
+import asset11 from "/src/assets/asset 11.png";
+import asset12 from "/src/assets/asset 12.png";
+import asset13 from "/src/assets/asset 13.png";
+import asset14 from "/src/assets/asset 14.png";
+import asset15 from "/src/assets/asset 15.png";
+import asset16 from "/src/assets/asset 16.png";
+import asset17 from "/src/assets/asset 17.png";
+import asset18 from "/src/assets/asset 18.png";
+import asset19 from "/src/assets/asset 19.png";
+import asset20 from "/src/assets/asset 20.png";
+import asset21 from "/src/assets/asset 21.png";
+import asset22 from "/src/assets/asset 22.png";
+import asset23 from "/src/assets/asset 23.png";
+import asset24 from "/src/assets/asset 24.png";
+import asset25 from "/src/assets/asset 25.png";
+import asset26 from "/src/assets/asset 26.png";
+import asset27 from "/src/assets/asset 27.png";
+import asset28 from "/src/assets/asset 28.png";
 const Hero = () => {
-  
   const initialTranslateLTR = -48 * 4;
   const initialTranslateRTL = 36 * 4;
 
@@ -98,17 +123,9 @@ const Hero = () => {
         </div>
         {/* companies  */}
         <div className="mt-16 flex gap-2 justify-center items-center">
-          <img
-            src="./src/assets/asset 2.svg"
-            alt=""
-            className="translate-y-2"
-          />
+          <img src={asset2} alt="" className="translate-y-2" />
           <span className="font-bold ">APPS POWERED BY TO DESKTOP</span>
-          <img
-            src="./src/assets/asset 2.svg"
-            alt=""
-            className="translate-y-2 -scale-x-100"
-          />
+          <img src={asset2} alt="" className="translate-y-2 -scale-x-100" />
         </div>
         {/* logo moving lines  */}
         <div className="mt-5 flex flex-col gap-4 overflow-hidden">
@@ -116,7 +133,7 @@ const Hero = () => {
           <div id="line1" className="flex gap-5 ">
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 3.png"
+                src={asset3}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -124,7 +141,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 4.png"
+                src={asset4}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -132,7 +149,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 5.png"
+                src={asset5}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -140,7 +157,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 6.png"
+                src={asset6}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -148,7 +165,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 7.png"
+                src={asset7}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -156,7 +173,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 8.png"
+                src={asset8}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -164,7 +181,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 9.png"
+                src={asset9}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -172,7 +189,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 10.png"
+                src={asset10}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -180,7 +197,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 11.png"
+                src={asset11}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -188,7 +205,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 12.png"
+                src={asset12}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -196,7 +213,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 13.png"
+                src={asset13}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -204,7 +221,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 14.png"
+                src={asset14}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -212,7 +229,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 15.png"
+                src={asset15}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -223,7 +240,7 @@ const Hero = () => {
           <div id="line2" className="flex gap-5 ">
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 16.png"
+                src={asset16}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -231,7 +248,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 17.png"
+                src={asset17}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -239,7 +256,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 18.png"
+                src={asset18}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -247,7 +264,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 19.png"
+                src={asset19}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -255,7 +272,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 20.png"
+                src={asset20}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -263,7 +280,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 21.png"
+                src={asset21}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -271,7 +288,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 22.png"
+                src={asset22}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -279,7 +296,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 23.png"
+                src={asset23}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -287,7 +304,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 24.png"
+                src={asset24}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -295,7 +312,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 25.png"
+                src={asset25}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -303,7 +320,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 26.png"
+                src={asset26}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -311,7 +328,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 27.png"
+                src={asset27}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -319,7 +336,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 28.png"
+                src={asset28}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -330,7 +347,7 @@ const Hero = () => {
           <div id="line3" className="flex gap-5  lg:hidden">
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 3.png"
+                src={asset3}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -338,7 +355,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 29.png"
+                src={asset28}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -346,7 +363,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 4.png"
+                src={asset4}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -354,7 +371,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 5.png"
+                src={asset5}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -362,7 +379,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 6.png"
+                src={asset6}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -370,7 +387,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 10.png"
+                src={asset10}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -378,7 +395,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 7.png"
+                src={asset7}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -386,7 +403,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 12.png"
+                src={asset12}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -394,7 +411,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 14.png"
+                src={asset14}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -402,7 +419,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 23.png"
+                src={asset23}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -410,7 +427,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 27.png"
+                src={asset27}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -418,7 +435,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 19.png"
+                src={asset19}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -426,7 +443,7 @@ const Hero = () => {
             </div>
             <div className="md:min-h-32 md:min-w-36 min-h-24 min-w-24 flex flex-col items-center justify-center border-2 rounded-xl bg-white ">
               <img
-                src="./src/assets/asset 20.png"
+                src={asset20}
                 alt=""
                 className="h-12 w-12 md:h-16 md:w-16"
               />
@@ -435,7 +452,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      
     </div>
   );
 };

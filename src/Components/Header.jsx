@@ -4,6 +4,7 @@ import { IoArrowForward } from "react-icons/io5";
 import { FaXmark } from "react-icons/fa6";
 import { useState } from "react";
 import logo from "/src/assets/asset 0.png";
+import asset1 from "/src/assets/asset 1.svg";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   function handlemenu() {
@@ -21,7 +22,7 @@ const Header = () => {
                 className="h-12 w-12 mr-2 object-cover"
               />
               <span className="text-lg font-medium font-display">
-                To Desktop
+                ToDesktop
               </span>
             </div>
           </a>
@@ -45,7 +46,7 @@ const Header = () => {
             </ul>
           </div>
           <button className="hidden lg:flex gap-2 bg-white px-6 py-2 rounded-md border hover:border-slate-950 border-slate-850 items-center font-medium">
-            <img src="./src/assets/asset 1.svg" alt="" />
+            <img src={asset1} alt="" />
             Get Started
             <IoArrowForward />
           </button>
@@ -63,12 +64,12 @@ const Header = () => {
               <a href="">
                 <div className="flex items-center">
                   <img
-                    src="./src/assets/asset 0.png"
+                    src={logo}
                     alt="Logo"
                     className="h-12 w-12 mr-2 object-cover"
                   />
                   <span className="text-lg font-medium font-display">
-                    Vikrant Rathi
+                    ToDesktop
                   </span>
                 </div>
               </a>
@@ -99,7 +100,7 @@ const Header = () => {
             </div>
             <hr />
             <button className="md:mx-20 mt-5 ml-8 flex shadow gap-2 bg-white px-6 py-2 rounded-md border hover:border-slate-950 border-slate-850 items-center font-medium">
-              <img src="./src/assets/asset 1.svg" alt="" />
+              <img src={asset1} alt="" />
               Get Started
               <IoArrowForward />
             </button>

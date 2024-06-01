@@ -1,6 +1,10 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
-
+import asset44 from "/src/assets/asset 44.svg";
+import asset45 from "/src/assets/asset 45.jpeg";
+import asset46 from "/src/assets/asset 46.png";
+import asset47 from "/src/assets/asset 47.png";
+import asset48 from "/src/assets/asset 48.jpeg";
 const Customerstories = () => {
   return (
     <div className="w-full mt-10 ">
@@ -11,7 +15,7 @@ const Customerstories = () => {
 
         <div className="flex flex-col lg:flex-row items-start mt-10 border p-5 rounded-xl gap-8 overflow-hidden">
           <div className="flex flex-col gap-8 lg:w-[60%] sm:p-10">
-            <img src="./src/assets/asset 44.svg" alt="" className="w-32" />
+            <img src={asset44} alt="" className="w-32" />
             <p className="text-xl font-normal md:text-2xl md:font-semibold">
               ClickUp used ToDesktop to get their desktop app in front of
               customers in days instead of months.
@@ -48,7 +52,7 @@ const Customerstories = () => {
               <div className="mt-10 flex gap-3">
                 <div>
                   <img
-                    src="./src/assets/asset 45.jpeg"
+                    src={asset45}
                     alt=""
                     className="rounded-full"
                   />
@@ -62,7 +66,7 @@ const Customerstories = () => {
           </div>
           <div className="lg:w-[40%]">
             <img
-              src="./src/assets/asset 46.png"
+              src={asset46}
               alt=""
               className="-mb-5 ml-5 mt-16"
             />
@@ -86,14 +90,14 @@ const Customerstories = () => {
                 <div className="flex">
                   <div className="w-12 h-12 flex justify-center items-center rounded-full border border-white -mr-5 overflow-hidden">
                     <img
-                      src="./src/assets/asset 47.png"
+                      src={asset47}
                       alt=""
                       className="min-w-16 min-h-16"
                     />
                   </div>
                   <div className="w-12 h-12 rounded-full border border-white overflow-hidden">
                     <img
-                      src="./src/assets/asset 48.jpeg"
+                      src={asset48}
                       alt=""
                       className="rounded-full"
                     />
@@ -122,14 +126,14 @@ const Customerstories = () => {
                 <div className="flex">
                   <div className="w-12 h-12 flex justify-center items-center rounded-full border border-white -mr-5 overflow-hidden">
                     <img
-                      src="./src/assets/asset 47.png"
+                      src={asset47}
                       alt=""
                       className="min-w-16 min-h-16"
                     />
                   </div>
                   <div className="w-12 h-12 rounded-full border border-white overflow-hidden">
                     <img
-                      src="./src/assets/asset 48.jpeg"
+                      src={asset48}
                       alt=""
                       className="rounded-full"
                     />
@@ -158,14 +162,14 @@ const Customerstories = () => {
                 <div className="flex">
                   <div className="w-12 h-12 flex justify-center items-center rounded-full border border-white -mr-5 overflow-hidden">
                     <img
-                      src="./src/assets/asset 47.png"
+                      src={asset47}
                       alt=""
                       className="min-w-16 min-h-16"
                     />
                   </div>
                   <div className="w-12 h-12 rounded-full border border-white overflow-hidden">
                     <img
-                      src="./src/assets/asset 48.jpeg"
+                      src={asset48}
                       alt=""
                       className="rounded-full"
                     />

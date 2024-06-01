@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaTwitter } from "react-icons/fa";
-
+import asset0 from "/src/assets/asset 0.png";
+import asset54 from "/src/assets/asset 54.svg";
 const Footer = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="py-10 px-8 border flex md:flex-row flex-col-reverse md:justify-between gap-10 align-center rounded-xl bg-gray-50 border-gray-200">
           <div className="flex items-center justify-center">
             <img
-              src="./src/assets/asset 0.png"
+              src={asset0}
               alt="Logo"
               className="h-12 w-12 mr-2 object-cover"
             />
@@ -35,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center items-center mt-10 gap-5 text-gray-500">
           <div className="flex justify-center items-center gap-3">
-            <img src="./src/assets/asset 54.svg" alt="" className="w-5" />
+            <img src={asset54} alt="" className="w-5" />
             <p> A Y Combinator company.</p>
           </div>
           <div>

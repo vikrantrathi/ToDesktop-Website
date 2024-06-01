@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-
+import asset46 from "/src/assets/asset 46.png";
 const Download = () => {
   return (
     <div className="w-full p-10">
@@ -25,7 +25,7 @@ const Download = () => {
           </p>
         </div>
         <div className="md:w-[40%] mt-10 right-0 bottom-0 ml-10">
-          <img src="./src/assets/asset 46.png" alt="" />
+          <img src={asset46} alt="" />
           
         </div>
       </div>
