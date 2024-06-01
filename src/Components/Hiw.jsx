@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa6";
-
+import asset66 from "/src/assets/asset 66.svg";
 const Hiw = () => {
   return (
     <div>
@@ -57,7 +57,7 @@ const Hiw = () => {
             </div>
           </div>
           <div className="flex flex-1 justify-center items-center mt-10 sm:mt-0">
-            <img src="./src/assets/asset 66.svg" alt="image" />
+            <img src={asset66} alt="image" />
           </div>
         </div>
         <div className="md:flex border-2 rounded-xl px-5 py-10 md:px-10 md:py-20 sm:max-w-7xl container mx-auto bg-gradient-to-br from-gray-100 to-gray-50">
@@ -109,7 +109,7 @@ const Hiw = () => {
             </div>
           </div>
           <div className="flex flex-1 justify-center items-center mt-10 sm:mt-0">
-            <img src="./src/assets/asset 66.svg" alt="image" />
+            <img src={asset66} alt="image" />
           </div>
         </div>
         <div className="md:flex border-2 rounded-xl px-5 py-10 md:px-10 md:py-20 sm:max-w-7xl container mx-auto bg-gradient-to-br from-gray-100 to-gray-50">
@@ -161,7 +161,7 @@ const Hiw = () => {
             </div>
           </div>
           <div className="flex flex-1 justify-center items-center mt-10 sm:mt-0">
-            <img src="./src/assets/asset 66.svg" alt="image" />
+            <img src={asset66} alt="image" />
           </div>
         </div>
       </section>
